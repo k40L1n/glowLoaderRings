@@ -68,6 +68,7 @@ body {
         0 0 80px rgba(255, 214, 0, 1),
         0 0 0 4px rgba(255, 214, 0, .1);
 }
+
 /*3rd child*/
 
 .glowing span:nth-child(3) {
@@ -75,7 +76,7 @@ body {
     left: 90px;
     right: 90px;
     bottom: 90px;
-    border: 1px solid rgba(255, 255, 255, .1);
+    /*    border: 1px solid rgba(255, 255, 255, .1);*/
     animation: animate3 4s linear infinite;
 }
 
@@ -106,6 +107,7 @@ body {
         0 0 80px rgba(255, 0, 0, 1),
         0 0 0 4px rgba(255, 0, 0, .1);
 }
+
 /* Animations */
 
 @keyframes animate1 {
